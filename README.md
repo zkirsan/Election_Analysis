@@ -26,9 +26,9 @@ The analysis of the election shows that;
       - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
 
 ## Challenge Overview
-The challenge is consisting of two technical analysis deliverables, which are;
-The Election Results Printed to the Command Line
-The Election Results Saved to a Text File
+The challenge was consisting of two technical analysis deliverables, which were;
+  1. The Election Results Printed to the Command Line
+  2. The Election Results Saved to a Text File
 <p align="center"><img src="https://github.com/zkirsan/Election_Analysis/blob/main/Terminal_Record.PNG"></img></p>
 
 ## Challenge Summary

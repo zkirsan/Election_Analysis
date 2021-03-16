@@ -9,8 +9,8 @@ To finish the election audit of a recent local congressional election, a Colorad
   5. Determine the winner of the election based on the popular vote.
 
 ## Resources
--Data Source: election_results.csv
--Software: Python 3.7.6, Visual Studio Code, 1.54
+  -Data Source: election_results.csv
+  -Software: Python 3.7.6, Visual Studio Code, 1.54
 ## Summary
 The analysis of the election shows that:
 There were 369,711 votes cast in the election.

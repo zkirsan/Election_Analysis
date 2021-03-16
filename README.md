@@ -1,39 +1,39 @@
-    # Election_Analysis
-    ## Project Overview
-    To finish the election audit of a recent local congressional election, a Colorado Board of Elections employee asked me the following jobs;
+# Election_Analysis
+## Project Overview
+To finish the election audit of a recent local congressional election, a Colorado Board of Elections employee asked me the following jobs;
 
-      1. Calculate the total number of votes cast.
-      2. Get a complete list of candidates who received votes.
-      3. Calculate the total number of votes each candidate received.
-      4. Calculate the percentage of votes each candidate won.
-      5. Determine the winner of the election based on the popular vote.
+  1. Calculate the total number of votes cast.
+  2. Get a complete list of candidates who received votes.
+  3. Calculate the total number of votes each candidate received.
+  4. Calculate the percentage of votes each candidate won.
+  5. Determine the winner of the election based on the popular vote.
 
-    ## Resources
-      - Data Source: election_results.csv
-      - Software: Python 3.7.6, Visual Studio Code, 1.54
-    ## Summary
-    The analysis of the election shows that;
-      - There were 369,711 votes cast in the election.
-      - The candidates were;
-          - Charles Casper Stockham
-          - Diana DeGette
-          - Raymon Anthony Doane
-      - The candidate results were;
-          - Charles Casper Stockham received 23.00% of the vote and 85,213 number of votes.
-          - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
-          - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
-      - The winner of the election was;
-          - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
+## Resources
+  - Data Source: election_results.csv
+  - Software: Python 3.7.6, Visual Studio Code, 1.54
+## Summary
+The analysis of the election shows that;
+  - There were 369,711 votes cast in the election.
+  - The candidates were;
+      - Charles Casper Stockham
+      - Diana DeGette
+      - Raymon Anthony Doane
+  - The candidate results were;
+      - Charles Casper Stockham received 23.00% of the vote and 85,213 number of votes.
+      - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
+      - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
+  - The winner of the election was;
+      - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
 
-    ## Challenge Overview
-    The challenge was consisting of two technical analysis deliverables, which were;
-      1. The Election Results Printed to the Command Line
-      2. The Election Results Saved to a Text File
-    <p align="center"><img src="https://github.com/zkirsan/Election_Analysis/blob/main/Terminal_Record.PNG"></img></p>
+## Challenge Overview
+The challenge was consisting of two technical analysis deliverables, which were;
+  1. The Election Results Printed to the Command Line
+  2. The Election Results Saved to a Text File
+<p align="center"><img src="https://github.com/zkirsan/Election_Analysis/blob/main/Terminal_Record.PNG"></img></p>
 
-    ## Challenge Summary
+## Challenge Summary
 
-      # -*- coding: UTF-8 -*-
+    # -*- coding: UTF-8 -*-
     """PyPoll Homework Challenge Solution."""
 
     # Add our dependencies.
@@ -117,6 +117,7 @@
 
 
     # Save the results to our text file.
+
     with open(file_to_save, "w") as txt_file:
 
         # Print the final vote count (to terminal)
@@ -197,4 +198,3 @@
 
         # Save the winning candidate's name to the text file
         txt_file.write(winning_candidate_summary)
-
